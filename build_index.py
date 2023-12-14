@@ -7,10 +7,16 @@ import openai
 from llama_index import ServiceContext, SimpleDirectoryReader, TreeIndex
 from llama_index.llms.openai import OpenAI
 
+from dotenv import load_dotenv
+import os
+
+load_dotenv()  # This loads the environment variables from .env
+
+# Now you can use os.getenv to get your variables
+openai.api_key = os.getenv('OPENAI_API_KEY')
+
 logging.basicConfig(stream=sys.stdout, level=logging.INFO)
 logging.getLogger().addHandler(logging.StreamHandler(stream=sys.stdout))
-
-openai.api_key = "YOUR_OPENAI_API_KEY" 
 
 service_context = ServiceContext.from_defaults(llm=OpenAI())
 
