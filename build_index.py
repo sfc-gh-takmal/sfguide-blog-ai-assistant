@@ -39,6 +39,7 @@ def main() -> None:
     if os.path.exists(knowledge_base_dir):
         rmtree(knowledge_base_dir)
     data_dir = os.path.join(base_dir, ".content", "blogs")
+    print("Data directory path:", data_dir)  # Add this line
     build_index(data_dir, knowledge_base_dir)
 
 

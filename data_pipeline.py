@@ -43,18 +43,11 @@ def download(pages: List[str]) -> str:
 
 
 PAGES = [
-    "https://www.cokeconsolidated.com/2023/11/21/baltimore-ravens-and-coca-cola-consolidated-team-up-for-tree-planting-event/"
-    ,"https://www.cokeconsolidated.com/2023/11/15/boy-scout-exemplifies-commitment-to-environment-on-america-recycles-day/"
-    ,"https://www.cokeconsolidated.com/2023/04/10/rain-barrel-workshop-aims-to-increase-rainwater-collection-in-columbus/"
-    ,"https://www.cokeconsolidated.com/2023/04/08/coca-cola-consolidated-and-kroger-to-close-the-loop-at-the-2023-kentucky-derby/"
-    ,"https://www.cokeconsolidated.com/2023/03/31/cleaning-up-nashvilles-waterways/"
-    ,"https://www.cokeconsolidated.com/2023/03/23/coca-cola-consolidated-and-the-washington-wizards-plant-25-trees/"
-    ,"https://www.cokeconsolidated.com/2022/12/13/coca-cola-consolidated-teams-up-with-indiana-university-to-prevent-unrecycled-plastic-waste/"
-    ,"https://www.cokeconsolidated.com/2022/11/21/closing-the-loop-at-nissan-stadium/"
-    ,"https://www.cokeconsolidated.com/2022/10/18/coca-cola-consolidated-commits-to-better-buildings-better-plants-challenge/"
-    ,"https://www.cokeconsolidated.com/2022/04/09/coca-cola-consolidated-and-giant-food-partner-with-local-organizations-to-cleanup-oxon-run/"
-    ,"https://www.cokeconsolidated.com/2021/05/28/closing-the-loop-at-the-coca-cola-600-2/"
-    ,"https://www.cokeconsolidated.com/2021/04/21/coca-cola-consolidated-implements-closed-loop-recycling-at-rbc-heritage/"
+    "https://quickstarts.snowflake.com/guide/data_engineering_pipelines_with_snowpark_python",
+    "https://quickstarts.snowflake.com/guide/cloud_native_data_engineering_with_matillion_and_snowflake",
+    "https://quickstarts.snowflake.com/guide/data_engineering_with_apache_airflow",
+    "https://quickstarts.snowflake.com/guide/getting_started_with_dataengineering_ml_using_snowpark_python",
+    "https://quickstarts.snowflake.com/guide/data_engineering_with_snowpark_python_and_dbt"
 ]
 
 if __name__ == "__main__":
